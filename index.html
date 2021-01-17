@@ -1,0 +1,86 @@
+<!-- Name: sign_up.html
+   - Date created: 14 February 2020
+   - Last modified: 17 February 2020
+   - Author: Tlotlego Kgatitsoe
+   - Description: This page allows the user to create an account with us.
+   -->
+
+<!DOCTYPE html>
+<html lang='en'>	
+<head>
+	<title> Sign Up - TK Furnitures </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	
+	<!-- The HEADER of the page. It includes the heading and the a paragraph. -->
+
+	<header>
+		<h1 id='title'> TK Furnitures </h1>
+		<p> Create an account with us, you get benefits that only TK members have exclusive access to. </p>
+	</header>
+
+	<!-- 
+		Used a BS4 (Bootstrap 4) grid one row with two columns to layout my information. They
+		are a FORM and a list. 
+	-->
+
+	<div class="container-fluid" style="margin-bottom: 32px;">
+
+		<!-- This list shows all the benefits that the client will get for signing up -->
+        
+		<div class="row">
+
+			<!-- Row 1, Column 1. This cell contains the form -->
+
+			<div class='col-lg-3'></div>
+
+			<div class="col-lg-6 text-center">
+				<h2> Form: </h2>
+				<small style="font-style: oblique;"> 
+					Please fill in the following form to sign up and become a member of the TK Furnitures
+					family.
+				</small>
+				<form class="form">
+					<br>
+					<div>
+						<input type="text" id='userName' name="client_name" placeholder="Name" required class="mr-lg-3 d-block text-center w-100 mb-lg-3">
+					</div>
+					<div>
+						<input type="text" id='userSurname' name="client_surname" placeholder="Surname" required class="mr-lg-3 d-block text-center w-100 mb-lg-3">
+					</div>
+					<div>
+						<input type="number" min='99' max='99999999' id='userPassword' name="client_password" placeholder="Password" required class="mr-lg-3 d-block text-center w-100 mb-lg-3">
+					</div>
+					<div>
+						<input type="number" min='99' max='99999999' id='userPasswordRepeated' name="client_password_repeated" placeholder="Repeat Password" required class="mr-lg-3 d-block text-center w-100 mb-lg-3">
+					</div>
+					<div>
+					    <label> Are you a new user? </label>
+					    <br>
+						<input type="radio" id='newUser' name="client_new/old" selected>
+						<label> Yes </label>
+					    <br>
+						<input type="radio" id='oldUser' name="client_new/old">
+						<label> No </label>
+					</div>
+				</form>
+				
+				<!-- 
+					This button submits the data entred by the user to the server for further 
+					processing. I customised all my buttons with inline CSS.
+				-->
+				
+				<button id='id_btn_submit' type="submit" class="btn btn-primary d-block w-100" 
+					style="border: 2px solid black; color: black;"> Sign Up </button>
+			</div>
+			<div class='col-lg-3'></div>
+		</div>
+	</div>
+	<script src='js/index.js'></script>
+</body>
+</html>

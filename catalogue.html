@@ -1,0 +1,45 @@
+<!-- Name: catalogue.html
+   - Date created: 17 January 2020
+   - Last modified: 24 January 2020
+   - Author: Tlotlego Kgatitsoe
+   - Description: This page includes information about all the products that the business sells
+   -->
+
+<!DOCTYPE html>
+<html lang='en'>	
+<head>
+	<title> TK Furnitures - Catalogue Page </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/catalogue.css">
+</head>
+<body>
+
+	<!-- The HEADER of the page. It includes the heading and the a paragraph. -->
+
+    <header>
+		<h1> 
+		    Catalogue
+		    <a href='cart.html' class='header-icon'> <img src='icons/cart.svg' title='Go to cart.' /> </a>
+		    <a href='account.html' class='header-icon'> <img src='icons/account.svg' title='Vew your profile.' /> </a>
+		</h1>
+		<p> Shows all the information about a particular product. </p>
+    </header>
+
+
+	<!-- 
+		This is the heading on top of the Bootstrap grid
+	-->
+
+	<div class='container'>
+		<h2 class='text-center'> Products: </h2>
+	</div>
+
+	<!-- The products are shown from here. All boxes will be dynamically added here at runtime via JS -->
+	
+	<div id='container'></div>
+	<script src='js/catalogue.js'></script>
+</body>
+</html>

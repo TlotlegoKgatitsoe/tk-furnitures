@@ -1,0 +1,17 @@
+/* File name: main.css
+ * Date created: 14 Febuary 2020
+ * Author: Tlotlego Kgatitsoe
+ * Last modified: 17 Febuary 2020
+ * Description: The main styling file for TK Furnitures.
+ */
+
+/* Centering damaged the style of my webpage. Also has a colour animation, that is why I didnt
+center all the contents of my pages. */
+
+body {
+	background-color: #f1f1f1;
+}
+
+#userPasswordRepeated {
+	display: none;
+}

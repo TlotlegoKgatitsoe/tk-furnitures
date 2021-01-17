@@ -1,0 +1,51 @@
+/* File name: main.css
+ * Author: Tlotlego Kgatitsoe
+ * Date created: 18 Febuary 2020
+ * Last modified: 18 Febuary 2020
+ * Description: Styles "product.html"
+ */
+
+body {
+	background-color: #f1f1f1;
+}
+
+header {
+	padding: 8px;
+}
+
+#container {
+}
+
+#product-name {
+	font-size: 35px;
+	text-align: center;
+	font-weight: lighter;
+	margin-bottom: 24px;
+	background-color: #80b080;
+	padding: 12px 0px;
+}
+
+#product-information-box {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.half {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+#product-image {
+	position: relative;
+	left: 22%;
+	width: 56%;
+	border: 1px solid #000;
+	box-shadow: 2px 2px 1px #808080;
+}
+
+#info-box {
+	width: 56%;
+	position: relative;
+    left: 22%;
+}

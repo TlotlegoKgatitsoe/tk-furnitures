@@ -1,0 +1,20 @@
+/* File name: account.css
+ * Author: Tlotlego Kgatitsoe
+ * Date created: 14 Febuary 2020
+ * Last modified: 19 Febuary 2020
+ * Description: Styles "account.html"
+ */
+
+.col1 {
+	font-weight: bold;
+	font-size: 24px;
+	margin: 36px;
+	width: 200px;
+	text-align: center;
+}
+
+.user-info {
+	font-size: 24px;
+	width: 250px;
+	text-align: center;
+}

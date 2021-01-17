@@ -1,0 +1,32 @@
+/* File name: main.css
+ * Date created: 14 Febuary 2020
+ * Author: Tlotlego Kgatitsoe
+ * Last modified: 19 Febuary 2020
+ * Description: The main styling file for TK Furnitures, styles all the pages to have a similar look and feel.
+ */
+
+body {
+	background-color: #f1f1f1;
+	margin: 16px;
+}
+
+header {
+	padding-right: 8px;
+}
+
+h1#title, .heading {
+	color: #007bff;
+}
+
+.tk-button {
+	background-color: #80b080;
+}
+
+.primaryColor {
+	background-color: 
+}
+
+.header-icon {
+	margin-right: 24px;
+	float: right;
+}

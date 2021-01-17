@@ -1,0 +1,56 @@
+/* File name: cart.css
+ * Author: Tlotlego Kgatitsoe
+ * Date created: 19 Febuary 2020
+ * Last modified: 19 Febuary 2020
+ * Description: Styles "cart.html"
+ */
+
+table {
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+}
+
+.container-fluid {
+	margin-top: 24px;
+}
+
+td {
+	width: 150px;
+}
+
+.row1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.number {
+	text-align: center;
+}
+
+td[ colspan='3' ] {
+	font-style: italic;
+	font-weight: bold;
+}
+
+td img {
+	border: 1px solid #000;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px #808080;
+	margin: 16px;
+}
+
+#total {
+	font-weight: bold;
+    padding: 16px;
+}
+
+#noItems {
+	margin-top: 10%;
+	border-radius: 4px;
+	font-size: 40px;
+	font-weight: lighter;
+	padding: 24px 16px;
+	text-align: center;
+	display: none;
+}

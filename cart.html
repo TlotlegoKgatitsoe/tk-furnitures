@@ -1,0 +1,52 @@
+<!-- Name: index.html
+   - Author: Tlotlego Kgatitsoe
+   - Date created: 19 February 2020
+   - Last modified: 19 February 2020
+   - Description: Shows the products that are in the user's cart.
+   -->
+
+<!DOCTYPE html>
+<html lang='en'>	
+<head>
+	<title> TK Furnitures </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+<body>
+
+	<!-- The HEADER of the page. It includes the heading and the a paragraph. -->
+
+    <header>
+		<h1> 
+		    Cart 
+		    <a href='account.html' class='header-icon'> <img src='icons/account.svg' title='View your account.' /> </a>
+		</h1>
+		<p> These are all the products that you have in ordered. </p>
+    </header>
+
+    <!-- Contains all the main content for the page -->
+
+    <div class='container-fluid' style='margin-top: 50px;'>
+        
+			<!-- The table -->
+					
+			<table border='1' align='center'>
+				<tr>
+					<td class='row1'> No. </td>
+					<td class='row1'> Product </td>
+					<td class='row1'> Image </td>
+					<td class='row1'> Vat (15%) </td>
+					<td class='row1'> Price </td>
+				</tr>
+			</table>
+
+			<!-- The DIV that tells if the user has items in their cart -->
+
+			<div id='noItems'> There are no items in your cart. </div>
+    </div>
+    <script src='js/cart.js'></script>
+</body>
+</html>
