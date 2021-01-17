@@ -2,7 +2,7 @@
 
 An online store selling furniture. Uses MVC in JavaScript. Makes intensive use of the Web Storage API.
 
-Uses pure HMTL, CSS, JavaScript and Bootstrap 4.
+Uses pure HMTL, CSS, JavaScript and Bootstrap 4. It is launched [here](https://tk-furnitures.herokuapp.com/index.html).
 
 ### Running
 
